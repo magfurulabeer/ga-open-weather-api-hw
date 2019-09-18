@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+</head>
+<body class="centered main-page">
+  <div id="initial-container" class="container">
+      <h1 class="title">Sky Watch</h1>
+      <form id="initial-form" action="">
+        <input id="initial-field" type="text">
+        <input id="initial-button" type="submit">
+      </form>
+  </div>
+  <div id="result-container" class="container hidden">
+      <header>
+          <h6 id="header-title">Sky Watch</h6>
+          <form id="header-form" action="">
+            <input id="header-field" type="text">
+            <input id="header-button" type="submit">
+          </form>
+        </header>
+        <main>
+          <section class="left-half">
+            <strong><h6 id="city">LOADING</h6></strong>
+            <h1 id="temperature">LOADING</h1>
+            <h5 id="description">LOADING</h5>
+          </section>
+          <section class="right-half">
+            <aside>
+              <h5>MIN</h5>
+              <h4 id="min">LOADING</h4>
+              <h5>MAX</h5>
+              <h4 id="max">LOADING</h4>
+            </aside>
+          </section>
+        </main>
+  </div>
+  <script src="main.js"></script>    
+</body>
+</html>
